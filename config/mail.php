@@ -15,6 +15,9 @@ return [
 
     'default' => env('MAIL_MAILER', 'mailgun'),
 
+    'MAIL_HOSTURL' => env('MAIL_MAILER', 'mailgun'),
+
+
     /*
     |--------------------------------------------------------------------------
     | Mailer Configurations

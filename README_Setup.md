@@ -23,3 +23,10 @@ MAIL_FROM_NAME="${APP_NAME}"
 MAILGUN_SECRET=b355dbbb212ccaa7882f09b00756f084-8845d1b1-463901f2
 MAILGUN_DOMAIN=sandboxcec62448d7c84db0833ee6370077c724.mailgun.org
 MAILGUN_ENDPOINT=api.mailgun.net
+
+Add the mail host your in env to get the templates create on the MAILGUN
+MAIL_HOSTURL=https://api.mailgun.net/v3/sandboxcec62448d7c84db0833ee6370077c724.mailgun.org/templates
+
+Set the user reciver mail address on env at
+
+USER_EMAIL= 
